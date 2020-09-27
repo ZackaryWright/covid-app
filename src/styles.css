@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  border: darkslategray solid 5px;
+  padding: 5%;
+  margin: 2%;
+  border-radius: 50px;
+}
+
+.container {
+  padding: 1em;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.confirmed-container {
+  background-color: dodgerblue;
+  padding: 2%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px;
+  margin: 0 auto 5px auto;
+  width: 50%;
+}
+
+.recovered-container {
+  background-color: rgb(4, 250, 217);
+  padding: 2%;
+  border-radius: 5px;
+  margin: 0 auto 5px auto;
+  width: 50%;
+  box-shadow: 1px 1px 2px;
+}
+
+.deaths-container {
+  background-color: dodgerblue;
+  padding: 2%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.stat {
+  font-size: 17px;
+  margin-bottom: 5%;
+  text-decoration: underline;
+}
+
+.stat-title {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 5%;
+  font-family: "Roboto";
+}
+
+.title {
+  color: darkblue;
+  margin-bottom: 2%;
+  font-family: "Montserrat";
+}
+
+select {
+  font-size: 25px;
+  margin-bottom: 3%;
+}
+
+.logo-link {
+  color: darkblue;
+  font-size: 75px;
+  margin-top: 30px;
+}
